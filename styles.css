@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#controls {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label, input {
+    margin: 5px 0;
+}
+
+button {
+    margin-top: 10px;
+}
+
+#simulation {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    border: 2px solid #333;
+    background-color: #fff;
+}
+
+.object {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#object1 {
+    background-color: red;
+}
+
+#object2 {
+    background-color: blue;
+}
+
+#results {
+    margin-top: 20px;
+}
